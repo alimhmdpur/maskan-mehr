@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-lg {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* @media(max-width:425px) {
+  .container-lg {
+      max-width: 960px;  
+      margin: 0 auto;
+  }
+}
+@media(min-width:992px) {
+  .container-lg {
+      max-width: 	992px;
+      margin: 0 auto;
+  }
+}
+@media(min-width:1200px) {
+  .container-lg {
+      max-width: 1200px; 
+      margin: 0 auto;
+  }
+} */
+@media(min-width:1400px) {
+  .container-lg {
+      max-width: 1440px; 
+      margin: 0 auto;
+  }
+}
+
+.bg-loginPage {
+  background-image: url(assets/images/bgImg/register1.svg);
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
